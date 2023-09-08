@@ -1,0 +1,237 @@
+/*--------------------------------------------------------------
+1.0 Common
+--------------------------------------------------------------*/
+a:hover , a:focus {color: #3395a0;}
+.entry-meta a:hover span,.entry-meta a:focus span {color: #3395a0;}
+dl dd a, dl dd a:hover, dl dd a:focus, ul li a:focus { color: #3395a0; }
+
+/*--------------------------------------------------------------
+2.0 Forms
+--------------------------------------------------------------*/
+button,
+input[type="button"],
+input[type="submit"] {
+  color: #ffffff;
+  border:1px solid #3395a0;
+}
+button:hover,
+button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background: #3395a0;
+  outline: #3395a0;
+}
+/* Placeholder text color */
+.form-control:focus {
+  border: thin dotted #3395a0;
+}
+
+/*============================3.0 BUTTONS============================*/
+.btn-default { background: #3395a0;border: 1px solid #3395a0;}
+.btn-light:hover, .btn-light:focus { background: #3395a0;border: 1px solid #3395a0; }
+
+.btn-default-dark { background: #3395a0; }
+.btn-default-light { background: #3395a0;border: 1px solid #3395a0; }
+.btn-default-light:hover, .btn-default-light:focus { color: #3395a0;border: 1px solid #3395a0; }
+
+.btn-border { border: 2px solid #3395a0; }
+.btn-border:hover, .btn-border:focus { border: 2px solid #3395a0;}
+
+.btn-light:not(:disabled):not(.disabled):active {
+  background-color: #3395a0;
+  border-color: #3395a0;
+}
+
+/*===================================================================================*/
+/*  MENUBAR SECTION
+/*===================================================================================*/
+
+.spice-custom .spice-nav > li > a:focus,
+.spice-custom .spice-nav > li > a:hover,
+.spice-custom .spice-nav .open > a,
+.spice-custom .spice-nav .open > a:focus,
+.spice-custom .spice-nav .open > a:hover {
+  color: #3395a0;
+  background-color: transparent;
+}
+body .spice-custom .spice-nav > .active > a,
+body .spice-custom .spice-nav > .active > a:hover,
+body .spice-custom .spice-nav > .active > a:focus {
+  color: #3395a0;
+}
+.spice-custom .dropdown-menu {
+    border-top: 2px solid #3395a0;
+    border-bottom: 2px solid #3395a0;
+}
+.spice-custom .spice-nav .open .dropdown-menu > .active > a,
+.spice-custom .spice-nav .open .dropdown-menu > .active > a:hover,
+.spice-custom .spice-nav .open .dropdown-menu > .active > a:focus {
+    background-color: transparent;
+    color: #3395a0;
+}
+
+/* spice Classic */
+.spice-classic .spice-nav > li > a:hover,
+.spice-classic .spice-nav > li > a:focus {
+    background-color: transparent;
+    color: #3395a0;
+}
+.spice-classic .spice-nav > .open > a,
+.spice-classic .spice-nav > .open > a:hover,
+.spice-classic .spice-nav > .open > a:focus {
+  background-color: transparent;
+  color: #3395a0;
+}
+.spice-classic .spice-nav > .active > a,
+.spice-classic .spice-nav > .active > a:hover,
+.spice-classic .spice-nav > .active > a:focus {
+  background-color: transparent;
+  color: #3395a0;
+    border-top: 2px solid #3395a0;
+}
+
+/*Dropdown Menus & Submenus Css----------------------------------------------------------*/
+
+.spice-custom .dropdown-menu {
+  border-top: 2px solid #3395a0;
+  border-bottom: 2px solid #3395a0;
+}
+
+/*===================================================================================*/
+/*  CART ICON
+/*===================================================================================*/
+
+.cart-header:hover > a, .woocommerce-loop-product__title:hover { color: #3395a0; }
+.cart-header > a .cart-total { background: #3395a0; }
+
+/*===================================================================================*/
+/*  HEADER CONTACT WIDGET
+/*===================================================================================*/
+
+.contact-icon i { color: #3395a0; }
+.custom-social-icons li > a:hover,
+.custom-social-icons li > a:focus {background-color: #3395a0;color:#ffffff;}
+.layout-2 .custom-social-icons li > a:hover, .layout-2 .custom-social-icons li > a:focus {background-color: #ffffff;color:#3395a0;}
+form.search-form input.search-submit, input[type="submit"], .woocommerce-product-search input[type="submit"], button[type="submit"] {
+    background-color: #3395a0;
+  }
+
+.site-info {
+    background: #171717;
+}
+ .site-footer .site-info .footer-nav li a:hover, .site-footer .site-info .footer-nav li a:focus{color: #3395a0;}
+  .entry-meta i {color: #3395a0;} 
+
+  .page-breadcrumb > li a:hover {
+    color: #3395a0;
+}
+.pagination a.active {
+  position: relative;
+  color: #3395a0;
+}
+.pagination a:hover,.pagination a:focus, 
+.pagination a.next:focus,.pagination a.next:hover, 
+.pagination a.prev:focus,.pagination a.prev:hover,.woocommerce nav.woocommerce-pagination ul li a:hover,.woocommerce nav.woocommerce-pagination ul li a:focus{color: #fff; background-color: #3395a0;}
+.site-info p.copyright-section a:hover,
+.site-info p.copyright-section a:focus {color: #3395a0;}
+.error-page .title {color:#ffffff;}
+.error-page .title span {color:#3395a0;}
+.scroll-up a {background-color: #3395a0;}
+
+
+.spice.spice-custom .header-button a{
+  background-color: #3395a0;
+  border: 2px solid #3395a0;
+}
+
+.page-title-section .spice-container ul,
+.page-title-section .spice-container li
+{
+  color: #3395a0;
+}
+/* Preloader */
+.dark-fusion-preloader-cube .dark-fusion-cube:before{background: #3395a0;}
+
+.sidebar .wp-block-search .wp-block-search__button{
+  background-color: #3395a0;
+}
+
+.woocommerce div.product form.cart .button, .woocommerce a.button, .woocommerce a.button:hover,
+.woocommerce a.button, .woocommerce .woocommerce-Button, .woocommerce .cart input.button, 
+.woocommerce input.button.alt, .woocommerce button.button, .woocommerce #respond input#submit,
+.woocommerce .cart input.button:hover, .woocommerce .cart input.button:focus,
+.woocommerce input.button.alt:hover, .woocommerce input.button.alt:focus,
+.woocommerce input.button:hover, .woocommerce input.button:focus,
+.woocommerce button.button:hover, .woocommerce button.button:focus,
+.woocommerce #respond input#submit:hover,
+.woocommerce #respond input#submit:focus,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
+    background: #3395a0;
+}
+.pagination a.active, .woocommerce .woocommerce-pagination .page-numbers.current {
+    background-color: #3395a0;
+    border-color: #3395a0;
+}
+.pagination a.next,.pagination a.prev, .woocommerce-pagination a.next,.woocommerce-pagination a.prev{
+  background:transparent;
+  border: 1px solid #3395a0 ;
+  color: #FFFFFF;
+}
+.page-numbers.current {
+    background-color: #3395a0;
+    color: #fff;
+}
+blockquote,.entry-meta .date a {
+  background: #3395a0;
+}
+.blog .post .spice-seprator{
+    border-bottom: 1px solid #3395a0;
+    margin: 5px 0 43px
+}
+.sidebar .widget_meta ul li a:hover{
+  color: #ffffff;
+  background: #3395a0;
+} 
+.sidebar ul li a:hover, .sidebar ul li a span:hover, .entry-content .more-link{
+  color: #3395a0;
+}
+.wp-block-search__button .search-icon{
+  color: #ffffff;
+}
+.site-footer .subscribe-form .input-group .form-control {
+  border: 1px solid #3395a0;
+}
+.site-footer {
+   border-top: 2px solid #3395a0;
+}
+.footer-meta.entry-meta .tag-links a:hover{
+  color: #ffffff;
+  background: #3395a0;
+  border: 1px solid #3395a0;
+}
+.custom-logo-link-url .site-title a:hover, .custom-logo-link-url .site-title a:focus, .entry-content p a:hover, .entry-content p a:focus {
+    color: #3395a0;
+}
+.sidebar .widget .wp-block-tag-cloud a:hover, .sidebar .widget .wp-block-tag-cloud a:focus, .footer-sidebar .widget .wp-block-tag-cloud a:hover, .footer-sidebar .widget .wp-block-tag-cloud a:focus {
+    background-color: #3395a0;
+}
+.blog .post .post-content h3.entry-title a:hover {
+    color: #3395a0;
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+   background-color: #3395a0;
+}
+.woocommerce a.button.alt:hover,.woocommerce button.button.alt:hover{
+   background-color: #3395a0;
+}
+.woocommerce ul.products li.product .onsale, .products span.onsale, .woocommerce span.onsale{
+  background-color: #3395a0;
+}
+.woocommerce-message::before{
+  color:#3395a0;
+}
+.woocommerce-message {
+    border-top-color: #3395a0;
+}
